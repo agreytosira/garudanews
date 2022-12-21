@@ -1,0 +1,35 @@
+@media screen and (max-width:768px) {
+    .home {
+        &-container {
+            flex-direction: column;
+        }
+
+        &-sidebar {
+            margin-top: 0;
+        }
+    }
+
+    .nav {
+        &-link {
+            text-align: center;
+        }
+    }
+
+    .btn-outline,
+    .btn-white {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .register-form,
+    .login-form {
+        width: 90%;
+        margin-bottom: 3rem;
+    }
+
+    footer {
+        padding: 1rem 2rem;
+        text-align: center;
+    }
+}
